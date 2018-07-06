@@ -27,3 +27,10 @@ end
 def printer(speakers)
   
 end
+
+def add_one(a)
+  a+1
+end 
+
+b=15
+add_one(b)
