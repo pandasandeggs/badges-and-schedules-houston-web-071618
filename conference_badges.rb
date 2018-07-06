@@ -25,5 +25,5 @@ def assign_rooms(speaker)
 end
 
 def printer(speaker)
-  puts badge_maker(speaker)
+  puts badge_maker("Edsger")
 end
