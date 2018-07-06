@@ -25,12 +25,7 @@ def assign_rooms(speaker)
 end
 
 def printer(speakers)
-  
+  batch_badge_creator(speakers).each do |sentence|
+    puts sentence
+    end
 end
-
-def add_one(a)
-  a+1
-end 
-
-b=15
-add_one(b)
