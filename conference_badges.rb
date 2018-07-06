@@ -27,5 +27,10 @@ end
 def printer(speakers)
   batch_badge_creator(speakers).each do |sentence|
     puts sentence
-    end
+  end
+  assign_rooms(speakers).each do |sentence|
+    puts sentence    
+  end
+  
+
 end
