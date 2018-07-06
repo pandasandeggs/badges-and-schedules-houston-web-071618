@@ -3,14 +3,14 @@ speaker = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
 # speakers for the conference
 
 def badge_maker(speaker)
-  return "Hello, my name is #{speaker}."
+  "Hello, my name is #{speaker}."
 end
 
 # makes badge with speakers name
 
 def batch_badge_creator(speaker)
   speaker.map do |speaker|
-   "Hello, my name is #{speaker}."
+   badge_maker(speaker)
  end
 end
 
